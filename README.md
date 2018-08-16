@@ -19,6 +19,12 @@ as follows:
 - Model: A special type of package, it is the top-most package with no parent.
 
 
+To run the generator, run `python -m src <H> <W>` from the project root 
+directory. Where `<H>` is the maximum height of the tree and `<W>` is the width.
+Width is the number of children under each package which are each randomly 
+chosen to be either a *block*, *link*, or *package*. 
+
+
 ## Sources 
 
 - [data/wordlist_1000.txt](data/wordlist_1000.txt) [https://gist.github.com/deekayen/4148741](https://gist.github.com/deekayen/4148741)
